@@ -3,6 +3,7 @@
 ## Breif Summary
 1.Preprocessed the data by Removing Skewness & performed dimensionality reduction using Principal Component Analysis  
 2.Examined Support Vector Classifier, Logistic Regression, Random Forest, AdaBoost & Gradient Boosting on the dataset 
+
 3.Compared the results based on various metrics, including Accuracy, F1 score, Confusion Matrix for validation
 
 
