@@ -1,18 +1,16 @@
 # Attrition-Data-Analysis-using-ML-Techniques-
 
 ##  Project Description
-The objective of this project is to predict whether an employee will resign or not based on given parameters. Data is analysed, preprocessed and feature engineering was done
-before using machine learning algorithms. Different ML algorithms are compared on the basis of accuracy, precision, recall, F1 and ROC scores. Based on these metrics final model 
-is selected and its hyperparamaters are tuned using grid search and stratified k-fold cross validation. 
+This project's goal is to make predictions about whether or not an employee would resign using certain parameters. Before applying machine learning algorithms, data was analysed, preprocessed, and feature engineering was carried out. On the basis of accuracy, precision, recall, F1 and ROC scores, various ML algorithms are contrasted. These measures are used to choose the final model, and grid search and stratified k-fold cross validation are used to tweak its hyperparameters.
 
 ## Data
 Data is taken from IBM HR Analytics Employee Attrition & Performance at kaggle https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset/download
 The downloaded file is present in Data folder. 
 
 ## Exploratory Data Analysis
-1. Graphs of features vs. attrition is plotted to examine effect of features on attrition.
-2. Histogram of numerical features is used to examine distribution.
-3. Plot of attrition distribution shows **highly imbalanced data**.
+1. To investigate the impact of characteristics on attrition, graphs of features vs. attrition are plotted.
+2. A distribution analysis using a histogram of numerical features is performed.
+3. The attrition distribution plot reveals extremely imbalanced data.**.
 
 ## Preprocessing and feature engineering
 1. Categorical features are encoded using **one hot encoding scheme**.
@@ -56,10 +54,10 @@ Above models are compared on the basis of following metrics.
 
 
 
-Comparison of model on basis of these metrics revealed that random forest can be used as final model for predicting attrition.
-After finalising the model, **grid search** over range of hyperparameters is used and models were compared using **stratified k-fold cross validation**.
-Feature importance is plotted for the final model.
+Random forest can be employed as the ultimate model for predicting attrition, according to a comparison of models based on these metrics.
+Following model completion, models were compared using "stratified k-fold cross validation" and "grid search" over a range of hyperparameters.
+For the complete model, feature importance is plotted..
 
 ## Observations
-1. From the feature importance it was seen that our engineered features i.e. "TenurePerJob", "CompRatioOverall" and "YearsWithoutChange" have higher importance values compared to many of the other given features. Thus it is concluded that feature engineering was successful.
-2. Using SMOTE oversampling helped in improving model's predictions. Earlier models were biased towards predicting majority class only, after using SMOTE this is no longer the case.
+1. Based on the importance of the features, it can be noted that our engineered features, such as "TenurePerJob," "CompRatioOverall," and "YearsWithoutChange," have greater importance values than many of the other features offered. Therefore, feature engineering was successful, it may be said.
+2. SMOTE oversampling improved the accuracy of the model's predictions. Following the use of SMOTE, earlier models that were skewed towards forecasting the majority class alone no longer exist.
