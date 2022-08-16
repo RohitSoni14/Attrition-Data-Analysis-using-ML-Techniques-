@@ -1,5 +1,11 @@
 # Attrition-Data-Analysis-using-ML-Techniques-
 
+## Breif Summary
+1.Preprocessed the data by Removing Skewness & performed dimensionality reduction using Principal Component Analysis  
+2.Examined Support Vector Classifier, Logistic Regression, Random Forest, AdaBoost & Gradient Boosting on the dataset 
+3.Compared the results based on various metrics, including Accuracy, F1 score, Confusion Matrix for validation
+
+
 ##  Project Description
 This project's goal is to make predictions about whether or not an employee would resign using certain parameters. Before applying machine learning algorithms, data was analysed, preprocessed, and feature engineering was carried out. On the basis of accuracy, precision, recall, F1 and ROC scores, various ML algorithms are contrasted. These measures are used to choose the final model, and grid search and stratified k-fold cross validation are used to tweak its hyperparameters.
 
