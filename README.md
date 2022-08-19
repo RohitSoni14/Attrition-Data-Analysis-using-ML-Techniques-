@@ -1,4 +1,4 @@
-# Attrition-Data-Analysis-using-ML-Techniques-
+# Employee-Attrition-Analysis-using-ML-Techniques-
 
 ## Breif Summary
 **1.Preprocessed the data by Removing Skewness & performed dimensionality reduction using Principal Component Analysis**  
